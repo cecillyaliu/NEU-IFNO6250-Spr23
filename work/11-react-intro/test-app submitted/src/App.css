@@ -1,0 +1,150 @@
+.App {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #FCE4C2;
+  text-align: center;
+}
+.title {
+  color: #9C1F25;
+  font-size:xx-large;
+  font-family: Marker Felt;
+  font-weight: bold;
+
+}
+
+.content-title {
+  color: #9C1F25;
+  font-size:xx-large;
+  font-family: Marker Felt;
+  font-weight: bold;
+
+}
+
+.last-word{
+  color: #9C1F25;
+  font-size:x-large;
+  font-family: Marker Felt;
+  font-weight: bold;
+
+}
+
+.in-progress {
+  color: #9C1F25;
+  font-family: Marker Felt;
+
+}
+
+
+.enter-word {
+  color: #115A9E;
+  font-size:x-large;
+  font-family: Marker Felt;
+  font-weight: bold;
+
+}
+
+.username-input {
+  margin-top: 3rem;
+
+  background-color: rgb(244, 238, 233);
+}
+
+.logout-button {
+  padding-top: 5rem;
+  margin-top: 3rem;
+}
+
+.login-button, .username-input {
+  display: inline-block;
+}
+.login-button, .guess-button, .logout-button{
+  font-family: Marker Felt;
+  margin-left: 1rem;
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 80px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 17px;
+  justify-content: center;
+  line-height: 15px;
+  max-width: 480px;
+  min-height: 30px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.login-button:hover,
+.login-button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.login-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.login-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+
+.guess-button:hover,
+.logguessin-button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.guess-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.guess-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+.logout-button:hover,
+.logout-button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.logout-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.logout-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.message {
+  background-color: #FCE4C2;
+
+  color:#115A9E;
+  font-family: Marker Felt;
+  font-size: large;
+  width: 300;
+}

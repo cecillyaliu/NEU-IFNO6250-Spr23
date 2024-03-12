@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+  background-color: #FCE4C2;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+.title {
+  color: #9C1F25;
+  font-size: 4rem;
+  font-family: Marker Felt;
+  font-weight: bold;
+}
+
+.sub-title{
+  color: #115A9E;
+  font-size: 2rem;
+  font-family: Marker Felt;
+  font-weight: bold;
+}
+
+.message-panel{
+  padding-top: 3rem;
+}
+
+.word-label{
+  color:#115A9E;
+  font-family: Marker Felt;
+  font-size: 2rem;
+}
+
+.currentWord {
+  color: #9C1F25;
+  font-family: Marker Felt;
+
+}
+
+.word-stored{
+  color:#9C1F25;
+  font-family: Marker Felt;
+  font-size: 2rem;
+}
+
+.stored-panel{
+  padding-bottom: 3rem;
+}
+
+.word-panel, .change-button {
+  padding-top: 2rem;
+  display: inline-block;
+}
+
+.word-input{
+  width: 20rem;
+  height: 2rem;
+}
+
+
+.input-word{
+  color: #9C1F25;
+  font-family: Marker Felt;
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 2rem;
+}
+
+.input-username{
+  color: #9C1F25;
+  font-family: Marker Felt;
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 2rem;
+}
+.error-message {
+  color:#115A9E;
+  font-family: Marker Felt;
+  font-size: 1.5rem;
+}
+.username-label{
+  color:#115A9E;
+  font-size: 2rem;
+  font-family: Marker Felt;
+}
+
+.logout-button {
+  display: inline-block;
+}
+.logout-button, .change-button, .login-button{
+  font-family: Marker Felt;
+  margin-left: 1rem;
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 80px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 15px;
+  max-width: 480px;
+  min-height: 30px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.logout-button:hover,
+.logout-button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.logout-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.logout-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+.login-button:hover,
+.login-button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.login-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.login-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+
+.change-button:hover,
+.change-button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.change-button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.change-button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+
+.logout-button{
+  margin-top: 1rem;
+}
+
+.word-container {
+  background-color: #FCE4C2;
+}
+
+.word-container {
+  padding-bottom: 4rem;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.content-panel {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: 
+  "creation main";
+  grid-gap: 0rem;
+}
+
+.creation-container {
+  grid-area: creation;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border: 1px solid red; 
+  padding: 20px;
+}
+
+.main-container {
+  grid-area: main;
+  overflow-y: auto;
+  list-style-type: none;
+  height: 40rem;
+  overflow-y: scroll;
+  border-radius: 10px;
+  border: 1px solid red; 
+  padding: 20px;
+
+}

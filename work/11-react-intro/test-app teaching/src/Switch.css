@@ -1,0 +1,9 @@
+.switch {
+    background-color: burlywood;
+    height: 3rem;
+    width: 3rem;
+}
+
+.switch--on {
+    background-color: chocolate;
+}
