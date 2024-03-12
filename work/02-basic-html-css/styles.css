@@ -1,0 +1,26 @@
+.favorite-animals {
+    color:black;
+    background-color:rgb(228, 194, 194);
+    border: 2px bashed rgb(58, 4, 99);
+}
+
+.header-container {
+    padding: 6px;
+    color:rgb(252, 237, 73);
+    background-color:darksalmon;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container {
+    color:aliceblue;
+    background-color:rgb(161, 136, 237);
+}
+
+.privacy-file {
+    color: aliceblue;
+}
+
+.privacy-panel {
+    color:darkgreen;
+}
