@@ -1,0 +1,116 @@
+.panel-login {
+    margin: auto !important;
+    width: 70% ;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+
+    background-color:rgb(239, 249, 229);
+}
+
+.all-words {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.previous-words {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.panel {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    justify-content: center;
+    align-content: center;
+
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "list guessedList"
+        "summary summary"
+        "guess guess";
+
+    background-color:rgb(239, 249, 229);
+}
+
+.header {
+    grid-area: header;
+}
+
+.panel-word {
+    border: 0.1rem solid black;
+
+}
+
+.words-panel{
+    grid-area: list;
+    column-count: 10;
+    column-gap: 30px;
+    column-rule-style:hidden;
+
+}
+
+.guessedWord-panel{
+    grid-area: guessedList;
+    column-count: 10;
+    column-gap: 30px;
+    column-rule-style:hidden;
+
+}
+
+.summary-panel {
+    grid-area: summary;
+    border: 0.1rem solid black;
+
+}
+
+.guess-panel {
+    grid-area: guess;
+
+    padding-top: 1rem;
+    border: 0.1rem solid black;
+}
+
+.title0, .text0, .title1, .text1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+
+}
+
+.title0, .title1, .title2, .title3 {
+    margin-left: 7rem;
+    margin-right: 0.5rem;
+}
+
+.title2, .text2, .title3, .text3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button-container form {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.guess-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+

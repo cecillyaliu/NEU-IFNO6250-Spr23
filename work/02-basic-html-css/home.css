@@ -1,0 +1,12 @@
+.favorite-animals {
+    border: 2px solid rgb(58, 4, 99);
+    padding: 2px;
+}
+
+/* .animals li::before {
+    content: "\1F431";
+} */
+
+.animals {
+    list-style-type: "\1F431";
+}

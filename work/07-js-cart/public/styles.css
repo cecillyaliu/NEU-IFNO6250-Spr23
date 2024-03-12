@@ -1,0 +1,41 @@
+.cats{
+    background-color: bisque;
+}
+
+.option {
+    background-color: lightpink;
+}
+
+.cart {
+    background-color: lightpink;
+}
+
+.summary {
+    background-color: lightpink;
+}
+
+button.add {
+    appearance: button;
+}
+
+ul, p {
+    margin: 0;
+}
+
+.edi-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+  }
+  
+  .minus:hover, .plus:hover {
+    background-color: #d0d0d0;
+  }
+  

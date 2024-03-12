@@ -1,0 +1,45 @@
+
+.content{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#shows{
+    display: none;
+}
+
+.word-list {
+    display: flex;
+    align-items: center;
+}
+
+.login-panel {
+    background-color: rgb(236, 168, 168);
+    padding-left: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 10rem;
+}
+
+.message-panel {
+    background-color: rgb(167, 89, 89);
+    color:aliceblue;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.word-panel {
+    background-color:  rgb(236, 168, 168);
+    padding-left: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 10rem;
+}
+
+.logout-panel {
+    background-color: bisque;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 10rem;
+}
